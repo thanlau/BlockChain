@@ -9,6 +9,6 @@ The computation of  BGW protocol can be summarized as follows:
 -Finally, parties reconstruct the secrets from the outputs of gates.
 
 In more detail, in the first step, n parties using Shamir’s secret sharing. In the semi-honest adversary security setting,  a threshold t < n/2 is used, while in the malicious adversary security setting, a threshold t < n/3 is used. 
-In the second steps, parties compute its secure share independentely. Specifically, the output shares of addition gate can be computed locally by Alpha(i) + Beta(i) = Gamma(i), where i is belong to (0,1), Alpha(i) and Beta(i) for the shares of input wires of addition gate, Gamma(i) for the share of output wires of addition gate. The observation is guaranteed by the definition of the polynomial function of Shamir’s secret sharing Gamma(x) is the sum of shares Alpha(x), Beta(x), which has same degree, and  Alpha(0) + Beta(0) = Gamma(0)
+In the second steps, parties compute its secure share independentely. Specifically, the output shares of addition gate can be computed locally by Alpha(i) + Beta(i) = Gamma(i), where i is belong to (0,1), Alpha(i) and Beta(i) for the shares of input wires of addition gate, Gamma(i) for the share of output wires of addition gate. The observation is guaranteed by the definition of the polynomial function of Shamir’s secret sharing Gamma(x) is the sum of shares Alpha(x), Beta(x), which has same degree, and  Alpha(0) + Beta(0) = Gamma(0).
 
 
